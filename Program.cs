@@ -23,7 +23,7 @@ class Program
             Console.Clear();
             currentTime++;
             Console.WriteLine(currentTime);
-            Thread.Sleep(1000);
+            Thread.Sleep(1000); // serve para dar um descanso de 1 segundo antes da próxima repetição!
         }
         Console.Clear();
         Console.WriteLine("StopWatch finalizado!");
